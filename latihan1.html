@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- <style>
+			p {
+				color: crimson;
+				text-align: justify;
+				font-family: 'Courier New', Courier, monospace;
+				font-size: 12pt;
+			}
+		</style> -->
+		
+		<!-- contoh pemanggilan css eksternal -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<!-- h1 adalah contoh tag -->
+		<!-- align dan bgcolor adalah salah satu contoh atribut -->
+		<table
+			align="center"
+			border="0"
+			cellpadding="20"
+			cellspasing="0"
+			width="100%"
+		>
+			<tr>
+				<td>
+					<fieldset>
+						<legend>Link</legend>
+						<ul>
+							<li>Home</li>
+							<li>Menu</li>
+							<li>Form</li>
+						</ul>
+					</fieldset>
+				</td>
+			</tr>
+		</table>
+
+		<h1 align="center">
+			<marquee behavior="scroll" direction="left" scrolldelay="50">
+				<!-- di bawah ini adalah contoh element -->
+				Welcome to My Homepage
+			</marquee>
+		</h1>
+
+		<!-- link untuk ke tujuan tag -->
+		<p align="right" id="atas"><a href="#bawah"></a>ke bawah</p>
+		<p align="justify">
+			<img src="./img/Foto kuliah kotak.png" alt="foto-kuliah" width="50"/>
+			<!-- <img src="https://pelajarinfo.id/wp-content/uploads/2022/10/Universitas-Sriwijaya-Logo.png" alt="" width="10%" align="left" hspace="10"> -->
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores saepe
+			neque accusantium perferendis id corporis, nulla blanditiis et quasi
+			voluptatem earum, perspiciatis numquam! Aliquid facere reiciendis dolorem,
+			voluptatem atque id.
+		</p>
+		<p style="text-align:center; color:brown">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quaerat
+			obcaecati incidunt optio debitis deserunt error suscipit tenetur illo
+			voluptatum adipisci. Reprehenderit, libero possimus! Molestias sed ullam
+			eum repellendus id!
+		</p>
+		<p id="paragraph">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus tenetur
+			enim minus fuga quas! Nulla mollitia doloribus, officiis, nam officia quod
+			natus sint eos hic, deserunt consequatur deleniti. Iste, ad.
+		</p>
+
+		<fieldset>
+			<legend>
+				<font size="5" color="green" face="calibri"> Tentang saya </font>
+			</legend>
+
+			<ol type="A">
+				<li>Pendidikan</li>
+				<ul type="square">
+					<li>SDN</li>
+					<li>SMP</li>
+					<li>SMA</li>
+					<li>Kuliah</li>
+				</ul>
+				<li>Hobby</li>
+				<ul type="disc">
+					<li>Olahraga</li>
+					<li>Menulis</li>
+					<li>Membaca</li>
+				</ul>
+				<li>Menu Favorit</li>
+				<ul>
+					<li>Makanan</li>
+					<li>Minuman</li>
+				</ul>
+			</ol>
+		</fieldset>
+
+		<p align="right" id="bawah"><a href="#atas"></a>Atas</p>
+	</body>
+</html>
